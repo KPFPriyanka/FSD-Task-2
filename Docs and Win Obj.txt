@@ -1,0 +1,32 @@
+Document
+
+When a web page is loaded, the browser creates a Document Object Model of the page. The document object represents the whole html document as a tree of Objects(HTML, HEAD, BODY, and other HTML tags). It is the root element that represents the html document.
+
+Each HTML document that gets loaded into a window becomes a document object. The document contains the contents of the page. Using document object, JavaScript can modify, add and delete the HTML elements, attributes CSS styles in the page
+
+Document object is property of window object that points to the DOM document loaded in that window.
+
+document.open() creates a blank document within the window.
+
+The Document is an interface that represents the web pages. It serves as an entry point into the content of web pages 
+
+The document includes everything about the webpage both which is visible and which is not visible on the screen. In other words, the document is the owner of all the node objects in the webpage.
+
+
+
+
+Windows Object
+
+Window object has properties like browser history, location and the device’s screen etc. In case of multi tab browser, a window object represents a single tab, but some of its properties like innerHeight, innerWidth and methods like resizeTo() will affect the whole browser window.
+
+The window object represents a window/tab containing a DOM document
+
+window.open() opens a new tab or window
+
+The Window object represents the browser window. It is the topmost object in the browser's window hierarchy. It is supported by all browsers.
+
+The window is the root object, even the document is the property of the window object. You can use it to find out screen height, screen width, history, localStorage, location, events, etc.
+
+Everything that is visible and non-visible on a webpage all are part of the window.
+
+
